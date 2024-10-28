@@ -1,3 +1,30 @@
-div{
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; 
+    height: 960px; 
+    align-self: center;
+    border: 1px solid black;
     border-color: black;
+}
+
+.gridItem {
+}
+
+button{
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    font-size: x-large;
 }
